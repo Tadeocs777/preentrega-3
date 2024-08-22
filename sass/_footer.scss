@@ -1,0 +1,59 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: fit-content;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+    max-width: 200px;
+    text-align: center;
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    &.comunidad {
+        flex: 1;
+        margin: 0 20px;
+        max-width: 200px;
+        text-align: center;
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+        }
+    }
+
+    &.community form button {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    &.comunidad form button {
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}

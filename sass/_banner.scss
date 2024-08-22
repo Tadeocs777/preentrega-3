@@ -1,0 +1,18 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 6px solid slateblue;
+}
+
+.banner-imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.banner-img {
+    max-width: 50px;
+    margin: 10px 0;
+}
